@@ -165,7 +165,11 @@ paths:
       tags: []
       responses:
         '200':
-          description: "{\r\n  \"planId\": \"WXYZ\",\r\n  \"ein\": \"000000009\",\r\n  \"planName\": \"WXYZ CORP. 401(K) PLAN\",\r\n  \"yrEndDate\": \"2018-12-31\",\r\n  \"yrBegDate\": \"2018-01-01\",\r\n}"
+          description: ''
+          content:
+            application/json:
+              schema:
+                type: object
       operationId: get-plans-planId
       x-stoplight:
         id: ht9k9p74g4uuw
