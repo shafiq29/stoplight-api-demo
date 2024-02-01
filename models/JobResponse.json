@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "x-examples": {
+    "Example 1": {
+      "jobId": "3488736",
+      "requestId": "3713537",
+      "taskGroupId": "-13",
+      "taskId": "34",
+      "jobStatusCode": "successful",
+      "queueDateTime": "2018-03-23T18:18:40",
+      "jobStartDateTime": "2018-03-23T18:18:41",
+      "jobEndDateTime": "2018-03-23T18:18:42",
+      "groupName": "Create allocations",
+      "taskName": "Update Allocation Percents",
+      "transactionIds": [
+        123
+      ]
+    }
+  },
+  "properties": {
+    "jobId": {
+      "type": "integer"
+    },
+    "requestId": {
+      "type": "integer"
+    },
+    "taskGroupId": {
+      "type": "integer"
+    },
+    "taskId": {
+      "type": "integer"
+    },
+    "jobStatusCode": {
+      "type": "string"
+    },
+    "queueDateTime": {
+      "type": "string"
+    },
+    "jobStartDateTime": {
+      "type": "string"
+    },
+    "jobEndDateTime": {
+      "type": "string"
+    },
+    "groupName": {
+      "type": "string"
+    },
+    "taskName": {
+      "type": "string"
+    },
+    "transactionIds": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    }
+  }
+}

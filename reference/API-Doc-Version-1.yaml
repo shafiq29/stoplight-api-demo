@@ -170,6 +170,11 @@ paths:
             application/json:
               schema:
                 type: object
+                properties:
+                  '':
+                    type: string
+                    x-stoplight:
+                      id: m3kdfyqprnh9i
       operationId: get-plans-planId
       x-stoplight:
         id: ht9k9p74g4uuw
